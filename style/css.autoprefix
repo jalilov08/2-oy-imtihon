@@ -1,0 +1,276 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.navbar .container .nav-li a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.navbar .container .nav-li a:hover {
+    color: #0779fc;
+}
+
+.navbar .container .nav-li {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+button {
+    width: 161px;
+    height: 42px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 6px;
+    background: #0082F4;
+    border: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+button:hover {
+    background:#50b4f7;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.about .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.about .container span {
+    color: #0082F4;
+}
+
+.about .container .text h1 {
+    color: #0080FD;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.about .container .text .text-about {
+    color: #000;
+    font-size: 60.55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.about .container .text .text-about p {
+    width: 436px;
+    height: 46px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.Services .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.Services .container span {
+    color: #0082F4;
+}
+
+.Services .container .text {
+    width: 500px;
+}
+
+.Services .container .text h1 {
+    color: #0080FD;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.Services .container .text .text-about {
+    color: #000;
+    font-size: 60.55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.Services .container .text .text-about p {
+    width: 436px;
+    height: 46px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.Reviews .parts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.Reviews .text-reviews {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Reviews .part {
+    text-align: center;
+    width: 400px;
+}
+
+.Reviews .parts .text p {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+main .container .parts .part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    width: 420px;
+    height: 283px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0082F4;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+}
+
+main .container .parts {
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+main .container .parts .part .left text {
+    width: 201px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+main .container .parts img {
+    width: 61px;
+    height: 61px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    position: relative;
+    top: 100px;
+    left: -20px;
+
+}
+
+main .container .main-text {
+    color: #000;
+    font-size: 48.44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+main .container .parts .part .right {
+    width: 62px;
+    height: 283px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    background: #0082F4;
+    border-radius: 5px;
+}
+
+
+.footer1 .text {
+    text-align: center;
+}
+
+.footer1 .text h1 {
+    color: #058AFF;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer1 .container{
+    padding: 50px   ;
+    background: rgba(232, 236, 255, 0.30);
+}
+.footer1 .container .text p {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer1 .container form{
+    text-align: center;
+}
+.footer1 .container form input{
+    padding: 11px;
+    
+}
